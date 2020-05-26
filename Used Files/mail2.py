@@ -4,9 +4,9 @@
 import smtplib
 import urllib.request as urllib
 # Senders email
-sender_email = "sabhi8226@gmail.com"
+sender_email = "Email"
 # Receivers email
-rec_email = "sabhi8226@gmail.com"
+rec_email = "Email"
 
 message = (""" The Accuracy Of uR MoDel is GoOod nOw u caN ProceeD FurThur ! """)
 
@@ -18,5 +18,5 @@ server.starttls()
 server.login("sabhi8226@gmail.com", "Abhi12345@8269406717")
 print("Login Success!")
 # Send Email
-server.sendmail("abhi saini", "sabhi8226@gmail,com", message)
+server.sendmail("abhi saini", "Email", message)
 print(f"Email has been sent successfully to {rec_email}")
